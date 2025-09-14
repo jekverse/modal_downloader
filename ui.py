@@ -6,7 +6,7 @@ from jobs import *
 from downloader import *
 import globals
 
-initial_items, initial_path = get_folder_contents("/root")
+initial_items, initial_path = get_folder_contents("/mnt")
 
 
 def execute_action(action, current_dir, selected_item, multi_input):
